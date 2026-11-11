@@ -1,0 +1,9 @@
+node_modules
+artifacts
+cache
+coverage
+types
+.env
+.env.*
+*.local
+!.env.example

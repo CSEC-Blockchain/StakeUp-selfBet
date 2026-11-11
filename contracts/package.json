@@ -1,0 +1,21 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat build",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/StakeUp.ts --network localhost",
+    "deploy:sepolia": "hardhat ignition deploy ignition/modules/StakeUp.ts --network sepolia",
+    "export:abi": "node scripts/export-abi.mjs StakeUp ../client/src/lib"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.9",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^26.6.6",
+    "hardhat": "^3.21.2",
+    "typescript": "^7.0.2",
+    "viem": "^2.57.18"
+  }
+}
