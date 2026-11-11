@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "web3-dapp": {
+      "source": "lijnati/web3-guide",
+      "sourceType": "github",
+      "skillPath": "skills/web3-dapp/SKILL.md",
+      "computedHash": "b43ec375de8e5d8e3008a2f97b41b3f0b8d3a02321e954cf6ba5d84fa7c92ab0"
+    }
+  }
+}
